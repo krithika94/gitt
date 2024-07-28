@@ -5,7 +5,7 @@ jobs:
       container: node:18.16.0
       steps:
           -run: node --version
-          -run: npm --version
+          -run: npm 
           -uses: actions/checkout@v3
           -run: npm install
           -run: node index.js
