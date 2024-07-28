@@ -2,7 +2,7 @@ on: push
 jobs : 
     build-node:
       runs-on: ubuntu-latest
-      container: 
+      container: node
       steps:
           - run: node --version
           - run: npm --version
